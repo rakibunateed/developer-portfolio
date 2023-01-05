@@ -198,3 +198,60 @@ main {
     text-align: center;
     margin-bottom: 113px;
 }
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+.resume-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.resume-item .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.resume-item .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-item .description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+.resume-button{
+    text-align: center;
+    margin-bottom: 131px;
+}
+/* contact section */
+.contact{
+    display: flex;
+    gap: 100px;
+    background:  #FFF8F3;
+    padding: 130px 200px;
+}
+.contact.section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+    text-decoration: none;
+}
