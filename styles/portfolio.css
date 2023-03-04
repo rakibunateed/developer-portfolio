@@ -52,15 +52,12 @@
 
 }
 
-
-
 /* header and navigetion styles */
 nav {
     display: flex;
     justify-content: space-between;
     padding: 50px 200px;
 }
-
 nav ul {
     display: flex;
     align-items: center;
